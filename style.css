@@ -263,7 +263,6 @@ a {
   font-weight: 400;
   line-height: 28px;
   margin-top: 10px;
-  width: 310px;
 }
 /* work-section-ends */
 
@@ -642,9 +641,6 @@ a {
     width: 431px;
     margin: 0 auto;
   }
-  .work-item p {
-    width: 100%;
-  }
   .work-section-items {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -793,6 +789,9 @@ a {
   .work-heading h1 {
     font-size: 31px;
     text-align: center;
+  }
+  .work-heading p {
+    width: 100%;
   }
   .work-item p {
     width: 100%;
