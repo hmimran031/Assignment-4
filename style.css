@@ -145,6 +145,7 @@ a {
   color: var(--primary) !important;
 }
 .nav-singup .sing {
+  margin-right: 25px;
   color: var(--paragraph);
   font-size: 14px;
   font-weight: 500;
