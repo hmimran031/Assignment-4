@@ -94,7 +94,7 @@ a {
 }
 .header {
   background: var(--background);
-  background-image: url(assets/image/Group.png);
+  background-image: url(./assets/image/Group.png);
   background-position: right top;
   background-repeat: no-repeat;
   padding-top: 50px;
@@ -270,7 +270,7 @@ a {
 /* about-section-start */
 .about-section {
   padding-top: 40px;
-  background-image: url(/assets/image/Group\ 33761.png);
+  background-image: url(./assets/image/Group\ 33761.png);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -329,7 +329,7 @@ a {
 .package-section {
   padding: 110px 0;
   background-color: var(--background);
-  background-image: url(assets/image/Group.png);
+  background-image: url(./assets/image/Group.png);
   background-size: 377px;
   background-repeat: no-repeat;
   background-position: right top -82px;
@@ -458,7 +458,7 @@ a {
   line-height: 15px;
 }
 .subscribe-area-right {
-  background-image: url(/assets/image/Groupback.png);
+  background-image: url(./assets/image/Groupback.png);
   background-repeat: no-repeat;
   background-position: center;
 }
