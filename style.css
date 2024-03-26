@@ -328,11 +328,10 @@ a {
 .package-section {
   padding: 110px 0;
   background-color: var(--background);
-  background-image: url(./assets/image/Group.png);
-  background-size: 377px;
+  background-image: url(./assets/image/LGroup.png);
+  background-size: 400px;
   background-repeat: no-repeat;
-  background-position: right top -82px;
-  background-position-x: 1150px;
+  background-position: right top;
 }
 .package-section h1 {
   color: var(--primary);
@@ -456,15 +455,16 @@ a {
   font-weight: 500;
   line-height: 15px;
 }
-.subscribe-area-right {
+.subscribe-area-right img {
   background-image: url(./assets/image/Groupback.png);
   background-repeat: no-repeat;
   background-position: center;
-}
-.subscribe-area-right img {
+  background-size: 350px;
+
   position: absolute;
   bottom: 0;
   right: 20px;
+  visibility: visible;
 }
 /* subscribe-section-ends  */
 
@@ -584,6 +584,9 @@ a {
     display: block;
     cursor: pointer;
   }
+  .header {
+    padding-bottom: 50px;
+  }
   .header-top {
     left: 19px;
     right: 19px;
@@ -591,7 +594,6 @@ a {
   .logo-bars i {
     padding: 16px;
   }
-
   .hidden {
     display: none;
   }
@@ -615,7 +617,7 @@ a {
   }
   /* banner-section-start */
   .banner {
-    padding: 110px 0;
+    padding: 110px 0px;
   }
   .banner-area {
     flex-direction: column;
@@ -762,7 +764,6 @@ a {
   /* banner-section-start */
   .banner {
     padding-top: 110px;
-    padding-bottom: 0;
   }
   .banner-area {
     flex-direction: column;
