@@ -642,6 +642,9 @@ a {
     width: 431px;
     margin: 0 auto;
   }
+  .work-item p {
+    width: 100%;
+  }
   .work-section-items {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -791,7 +794,7 @@ a {
     font-size: 31px;
     text-align: center;
   }
-  .work-heading p {
+  .work-item p {
     width: 100%;
   }
   .work-heading {
