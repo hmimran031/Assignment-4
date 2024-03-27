@@ -120,10 +120,6 @@ a {
 .secondary {
   color: var(--secondary) !important;
 }
-/* .navbar .nav {
-  align-items: center;
-  justify-content: flex-end;
-} */
 .navbar .nav li a {
   color: var(--paragraph);
   font-size: 14px;
@@ -576,7 +572,7 @@ a {
 }
 
 /* Tablet devices phones  */
-@media screen and (max-width: 991px) {
+@media only screen and (max-width: 991.99px) {
   .container {
     margin: 0 20px;
   }
